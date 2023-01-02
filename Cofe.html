@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+    .texts {
+        display: none;
+    }
+</style>
+
+<body>
+    <div class="kontent">
+        <p><b>Вставьте купюры в купюроприемник (не меньше 130 рублей):</b><br><br>
+            <form class="notice__form" enctype="multipart/form-data" autocomplete="off">
+                <input class="min__string" type="text" id="baks" placeholder="Введите сумму">
+                <!-- <input class="form__submit" type="button" value="ВНЕСТИ" id="addButton"> -->
+                <p class="out__money">Вы внесли <b><span class="rub__money"></span> рублей</b></p>
+
+                <p><b>Выбирите напиток:</b></p>
+                <input class="btn1" disabled="disabled" type="button" value="Капучино" id="addButton">
+                <input class="btn1" disabled="disabled" type="button" value="Латте" id="addButton">
+                <input class="btn1" disabled="disabled" type="button" value="Чай" id="addButton">
+                <br>
+                <p><b>Размер стаканчика:</b></p>
+                <input class="btn2" disabled="disabled" type="button" value="SMALL" id="addButton">
+                <!-- SMALL -->
+                <input class="btn2" disabled="disabled" type="button" value="MEDIUM" id="addButton">
+                <!-- Medium -->
+                <input class="btn2" disabled="disabled" type="button" value="BIG" id="addButton">
+                <!-- Big -->
+
+
+                <div class="texts">
+                    <p class="sum"></p>
+                </div>
+                <div class="texts2">
+                    <p class="sum2"></p>
+                </div>
+                <div class="texts3">
+                    <p class="sum3"></p>
+                </div>
+                <div class="texts4">
+                    <p class="sum4"></p>
+                </div>
+
+
+                <div class="texts5">
+                    <p class="sum5"></p>
+                </div> <!-- SMALL -->
+                <div class="texts6">
+                    <p class="sum6"></p>
+                </div> <!-- Medium -->
+                <div class="texts7">
+                    <p class="sum7"></p>
+                </div> <!-- Big -->
+
+                <input class="btn1 calculate" disabled="disabled" type="submit" value="РАСЧИТАТЬ" id="addButton">
+                <!-- РАСЧИТАТЬ -->
+                <input class="btn1 reset" disabled="disabled" type="button" value="СБРОСИТЬ" id="addButton">
+                <!-- СБРОСИТЬ -->
+
+                <p class="sum1"></p>
+                <p class="sum1__2"></p>
+                <div class="texts8">
+                    <p class="sum8"></p>
+                </div>
+                <div class="texts8">
+                    <p class="sum8"></p>
+                </div>
+            </form>
+    </div>
+</body>
+<script src="apparat_2.js"></script>
+
+</html>

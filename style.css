@@ -1,0 +1,15 @@
+
+.testimonials__error {
+    border: 1px solid #e5053a !important;
+}
+
+.testimonials__not_error {
+    border: 1px solid #00cc85 !important; 
+}
+
+input {outline:none;}
+
+.out__money {
+  display: none;
+  color: #00cc85;
+}
